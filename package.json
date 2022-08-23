@@ -3,9 +3,14 @@
   "version": "1.0.0",
   "description": "",
   "main": "gulpfile.js",
+  "homepage": "https://igrillio.github.io/-orange-team-proj/",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "gulp start --development "
+    "start": "gulp start --development ",
+    "deploy": "gh-pages -d dist",
+    "dist": "gulp dist --production"
+
+
   },
   "keywords": [],
   "author": "",
@@ -24,6 +29,7 @@
     "sass": "^1.50.1"
   },
   "dependencies": {
+    "gh-pages": "^4.0.0",
     "slick": "^1.12.2"
   }
 }
